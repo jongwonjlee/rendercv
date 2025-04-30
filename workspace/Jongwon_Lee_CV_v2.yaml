@@ -1,0 +1,204 @@
+# RenderCV has been updated to version 2. We created this file based on your original file from the previous version. We preserved the same content in the `cv` field while updating all other fields (`design`, `locale`,  etc.) to align with RenderCV version 2. However, we kept your original CV file that uses the old version for your reference.
+
+cv:
+  name: Jongwon Lee
+  location:
+  email: jongwonjlee@gmail.com
+  phone:
+  website: https://jongwonjlee.github.io/
+  social_networks:
+    - network: LinkedIn
+      username: jongwonjlee
+    - network: GitHub
+      username: jongwonjlee
+  sections:
+    interests:
+      - State Estimation (Navigation, Mapping, Sensor Fusion, Calibration), Robot Perception, Computer Vision, and Spatial AI.
+    education:
+      - institution: University of Illinois Urbana-Champaign (UIUC)
+        area: Aerospace Engineering
+        degree: Ph.D.
+        start_date: 2020-08
+        end_date: 2025-08
+        date: Aug 2020 - Aug 2025 (Expected)
+        highlights:
+          - "Dissertation: ``Robust and Reliable Sensor Fusion and Localization for Autonomous Robotic Systems''"
+          - 'Advisor: Dr. Timothy W. Bretl'
+      - institution: Korea Advanced Institute of Science and Technology (KAIST)
+        area: Mechanical Engineering
+        degree: B.S.
+        start_date: 2014-03
+        end_date: 2020-08
+        highlights:
+          - 'GPA: 4.11/4.3, *Summa Cum Laude*'
+          - Includes a two-year leave from Fall 2016 to Spring 2018 for compulsory military service
+    experience:
+      - company: Bretl Research Group, UIUC
+        position: Graduate Research Assistant
+        location: Urbana, IL
+        start_date: 2020-08
+        end_date: present
+        highlights:
+          - Designed, developed, and validated navigation algorithms for flying vehicle takeoff and landing with visual and infrared fiducial markers, resulting in publications (C5, C3, C2, W1).
+          - Contributed to the design and development of takeoff and landing navigation using multi-scale visual and infrared fiducial markers for urban air mobility in collaboration with Supernal, LLC.
+          - Designed, developed, and validated extrinsic self-calibration algorithms for multiple inertial sensor systems, resulting in publications (C4, J1).
+          - Contributed to the design and implementation of a distributed inertial sensor system for CubeSat applications as part of NASA STTR-funded research.
+      - company: Google
+        position: Student Researcher
+        location: Mountain View, CA
+        start_date: 2024-09
+        end_date: 2024-12
+        highlights:
+          - Prototyped, developed, and validated a visual navigation pipeline leveraging a learning-based scene representation (e.g., 3D Gaussian splatting) and scene understanding, resulting in a patent filing (in progress).
+      - company: NAVER LABS
+        position: Research Intern
+        location: Seongnam, Korea
+        start_date: 2020-02
+        end_date: 2020-08
+        highlights:
+          - Examined the impact of learning-based image retrieval methods within a large-scale outdoor visual navigation pipeline.
+      - company: Intelligent Robotic Autonomy and Perception Laboratory, KAIST
+        position: Research Intern
+        location: Daejeon, Korea
+        start_date: 2018-03
+        end_date: 2019-12
+        highlights:
+          - Developed and validated depth estimation methods under low-light conditions using stereo infrared cameras, comparing conventional and learning-based approaches.
+          - Developed and validated a learning-based image retrieval for urban environments under scene changes, leveraging fisheye images and resulting in a publication (C1).
+      - company: Electronics and Telecommunications Research Institute (ETRI)
+        position: Research Intern
+        location: Daejeon, Korea
+        start_date: 2019-01
+        end_date: 2019-02
+        highlights:
+          - Designed and developed robot localization algorithm from 2D LiDAR data with reflective markers as landmarks.
+    publications:
+      - "**(J2)** David Hanley, **Jongwon Lee**, Su Yeon Choi, Timothy Bretl. ``The MagPIE2 Dataset: Magnetic Field-Based Mapping, Localization, and SLAM''. *IEEE Transactions on Instrumentation and Measurement*, 2025. (submitted)"
+      - "**(C5)** Su Yeon Choi, **Jongwon Lee**, Timothy Bretl. ``Design and Detection of an Infrared Fiducial Marker''. *IEEE International Conference on Robotics and Automation* (ICRA), 2025. (submitted)"
+      - "**(C4)** **Jongwon Lee**, David Hanley, Timothy Bretl. [``Efficient Extrinsic Self-Calibration of Multiple IMUs Using Measurement Subset Selection''](https://ieeexplore.ieee.org/abstract/document/10802604/). *IEEE/RSJ International Conference on Intelligent Robots and Systems* (IROS), 2024."
+      - "**(C3)** **Jongwon Lee**, Su Yeon Choi, Timothy Bretl. [``The Use of Multi-Scale Fiducial Markers to Aid Rotorcraft Navigation''](https://arc.aiaa.org/doi/abs/10.2514/6.2024-0338). *AIAA SciTech Forum*, 2024."
+      - "**(C2)**  Su Yeon Choi, **Jongwon Lee**, Timothy Bretl. [``The Impact of Adverse Environmental Conditions on Fiducial Marker Detection from Rotorcraft''](https://arc.aiaa.org/doi/abs/10.2514/6.2024-0339). *AIAA SciTech Forum*, 2024."
+      - "**(W1)**  **Jongwon Lee**, Su Yeon Choi, David Hanley, and Timothy Bretl. [``Comparative Study of Visual SLAM-Based Mobile Robot Localization Using Fiducial Markers''](https://oravus.github.io/vpr-workshop/assets/accepted_papers/14_comparative_study_of_visual_sl.pdf)'. IROS Workshop on Closing the Loop on Localization, 2023."
+      - "**(J1)** **Jongwon Lee**, David Hanley, Timothy Bretl. [``Extrinsic Calibration of Multiple Inertial Sensors from Arbitrary Trajectories''](https://ieeexplore.ieee.org/document/9682534). *IEEE Robotics and Automation Letters* (RA-L), 2022. (Presented at ICRA 2022)"
+      - "**(C1)** **Jongwon Lee**, Ayoung Kim. [``Neural Network-Based Long-Term Place Recognition from Omni-Images''](https://ieeexplore.ieee.org/abstract/document/8768636). *IEEE International Conference on Ubiquitous Robots* (UR), 2019."
+    skills:
+      - label: Programming
+        details: Python, C++, MATLAB
+      - label: Libraries and Frameworks
+        details: PyTorch, OpenCV, ROS, Optimization Libraries (Ceres, g2o, SymForce)
+      - label: Tools
+        details: Git, Docker, 3D CAD (SolidWorks), LaTeX
+    awards_and_honors:
+      - Mavis Future Faculty Fellows Program. *College of Engineering (CoE), UIUC*. 2024 - 2025.
+      - Academic Excellence Award for Class of 2021. *Mechanical Engineering (ME), KAIST*. 2021.
+      - Seong-Bu Kim Creative Activity Initiative Award. *ME, KAIST*. 2021.
+      - The Korean Government Scholarship Program for Study Overseas. *Korean Ministry of Education*. 2020 - 2022.
+      - Engineering Innovation Award. *CoE, KAIST*. 2020.
+      - Travel Grants (ACCV 2018, UR 2019, IROS 2019, CES 2020). *KAIST*.
+      - National Science and Engineering Scholarship. *Korea Student Aid Foundation*. 2014 - 2019.
+      - Dean's List. *CoE, KAIST*. 2014 - 2016, 2019.
+      - Scholarship for Honors Students. *ME, KAIST*. Spring 2019.
+      - Outstanding Achievement Award. *ME, KAIST*. 2014 - 2015, 2018.
+      - Best Instructor Award. *KAIST Science Outreach Program*. 2018.
+      - Bronze Prize, CEE-URP. *Civil and Environmental Engineering, KAIST*. 2018.
+    professional_services:
+      - name: Reviewer
+        highlights:
+          - IEEE Transactions on Robotics (*T-RO*). 2024 - Current.
+          - IEEE Robotics and Automation Letters (*RA-L*). 2024 - Current.
+          - IEEE Transactions on Instrumentation and Measurement (*TIM*). 2022 - Current.
+          - IEEE International Conference on Robotics and Automation (*ICRA*). 2022 - Current.
+      - name: Membership
+        highlights:
+          - American Institute of Aeronautics and Astronautics (*AIAA*)
+          - Academy of Model Aeronautics (*AMA*)
+          - Institute of Electrical and Electronics Engineers (*IEEE*)
+      - name: Teaching Assistant
+        highlights:
+          - Aerospace Control Systems (AE 353). *UIUC*. Spring 2025.
+          - Autonomous Systems Lab (AE 483). *UIUC*. Fall 2022.
+      - name: Mentorship
+        highlights:
+          - Geonwoo Kim, ME 497, *UIUC*. Jan 2024 - May 2024.
+          - Chris Schreiber, Jiho Sim, and Katherine Ruiz, AE 298, *UIUC*. Jan 2024 - May 2024.
+          - Parth Shrotri and Shivani Atre, AE 298, *UIUC*. Jan 2023 - Dec 2023.
+          - Pradyun Narkadamilli, ECE 297, *UIUC*. Sep 2022 - Dec 2022.
+          - Arjun Shah and Varun Sarabudla, PURE, *UIUC*. Sep 2021 - Dec 2021.
+          - Chaemin Na, CEE-URP, *KAIST*. Jun 2018 - Dec 2018.
+design:
+  theme: sb2nov
+  font: Latin Modern Serif
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 18 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 1.0 cm
+      bottom: 1.0 cm
+      left: 1.0 cm
+      right: 1.0 cm
+    section_title:
+      top: 0.2 cm
+      bottom: 0.15 cm
+    entry_area:
+      left_and_right: 0.15 cm
+      vertical_between: 0.10 cm
+      date_and_location_width: 4.0 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.2 cm
+      vertical_between_bullet_points: 0.07 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2025-02-02'
+  bold_keywords: []
