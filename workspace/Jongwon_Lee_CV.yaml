@@ -51,8 +51,9 @@ cv:
         location: North Reading, MA
         start_date: 2025-05
         end_date: 2025-08
-        # highlights:
-        #   - Designed, developed, and validated a visual navigation pipeline using learning-based scene representations and scene understanding, resulting in a patent filing (in progress).
+        highlights:
+          - Improved ground robot navigation accuracy by **9%** through developing and implementing a multi-IMU calibration and fusion framework, with no hardware modifications required.
+          - Evaluated learning-based IMU bias estimation methods on ground robots, identified key limitations, and proposed potential improvements for ground robot applications.
       - company: Google
         position: Student Researcher
         location: Mountain View, CA
@@ -84,7 +85,7 @@ cv:
           - Designed and developed robot localization algorithm from 2D LiDAR data with reflective markers as landmarks.
     publications:
       - "**[J3]** **Jongwon Lee**, Timothy Bretl. [``GSFeatLoc: Visual Localization Using Feature Correspondence on 3D Gaussian Splatting''](https://arxiv.org/abs/2504.20379). *IEEE Robotics and Automation Letters* (RA-L), 2025. (Under Review)"
-      # - "**[C5]** Su Yeon Choi, **Jongwon Lee**, Timothy Bretl. ``Design and Detection of an Infrared Fiducial Marker''. (In Preparation)"
+      - "**[W2]** Su Yeon Choi, **Jongwon Lee**, Timothy Bretl. ``Design and Detection of an Infrared Fiducial Marker''. ICRA Workshop on Thermal Infrared in Robotics, 2025."
       - "**[J2]** David Hanley, **Jongwon Lee**, Su Yeon Choi, Timothy Bretl. ``The MagPIE2 Dataset: Magnetic Field-Based Mapping, Localization, and SLAM''. *IEEE Transactions on Instrumentation and Measurement*, 2025. (Submitted)" 
       - "**[C4]** **Jongwon Lee**, David Hanley, Timothy Bretl. [``Efficient Extrinsic Self-Calibration of Multiple IMUs Using Measurement Subset Selection''](https://ieeexplore.ieee.org/abstract/document/10802604/). *IEEE/RSJ International Conference on Intelligent Robots and Systems* (IROS), 2024."
       - "**[C3]** **Jongwon Lee**, Su Yeon Choi, Timothy Bretl. [``The Use of Multi-Scale Fiducial Markers to Aid Rotorcraft Navigation''](https://arc.aiaa.org/doi/abs/10.2514/6.2024-0338). *AIAA SciTech Forum*, 2024."
@@ -119,15 +120,15 @@ cv:
           - "IEEE Robotics and Automation Letters (*RA-L*). 2024 - Current."
           - "IEEE Transactions on Instrumentation and Measurement (*TIM*). 2022 - Current."
           - "IEEE International Conference on Robotics and Automation (*ICRA*). 2022 - Current."
-      - name: Membership
-        highlights:
-          - American Institute of Aeronautics and Astronautics (*AIAA*)
-          - Academy of Model Aeronautics (*AMA*)
-          - Institute of Electrical and Electronics Engineers (*IEEE*)
+      # - name: Membership
+      #   highlights:
+      #     - American Institute of Aeronautics and Astronautics (*AIAA*)
+      #     - Academy of Model Aeronautics (*AMA*)
+      #     - Institute of Electrical and Electronics Engineers (*IEEE*)
       - name: Teaching Assistant
         highlights:
+          - "Autonomous Systems Lab (AE 483). *UIUC*. Fall 2022, Fall 2025."
           - "Aerospace Control Systems (AE 353). *UIUC*. Spring 2025."
-          - "Autonomous Systems Lab (AE 483). *UIUC*. Fall 2022."
       - name: Mentorship
         highlights:
           - "Geonwoo Kim, ME 497, *UIUC*. Jan 2024 - May 2024."
@@ -149,7 +150,7 @@ design:
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
   disable_last_updated_date: false
   last_updated_date_style: Last updated in TODAY
-  header_font_size: 18 pt
+  header_font_size: 15 pt
   text_alignment: justified
   seperator_between_connections: ''
   use_icons_for_connections: true
@@ -160,19 +161,19 @@ design:
       left: 1.0 cm
       right: 1.0 cm
     section_title:
-      top: 0.2 cm
-      bottom: 0.15 cm
+      top: 0.15 cm
+      bottom: 0.12 cm
     entry_area:
       left_and_right: 0.15 cm
       vertical_between: 0.10 cm
       date_and_location_width: 4.0 cm
     highlights_area:
-      top: 0.10 cm
+      top: 0.05 cm
       left: 0.2 cm
-      vertical_between_bullet_points: 0.07 cm
+      vertical_between_bullet_points: 0.02 cm
     header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
+      vertical_between_name_and_connections: 0.0 cm
+      bottom: 0.0 cm
       horizontal_between_connections: 0.5 cm
 
 locale_catalog:
