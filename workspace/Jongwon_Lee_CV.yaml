@@ -41,7 +41,8 @@ cv:
         start_date: 2020-08
         end_date: present
         highlights:
-          - "**(2025-)** Designed, developed, and validated a **highly efficient** visual localization (from **over 10s** to **about 0.1s** per image) on 3D Gaussian splatting using feature correspondence ([J3])."
+          - "**(2025-)** Designing, developing, and validating a method for localizing infrared images on pre-computed 3D Gaussian splatting from RGB images."
+          - "**(2025-)** Designed, developed, and validated a method for localizing images on pre-computed 3D Gaussian splatting, achieving a speedup from **over 10s** to **about 0.1s** per image using feature correspondence ([J3])."
           - "**(2023-2024)** Designed, developed, and validated visual-inertial SLAM for flying vehicle takeoff and landing, **improving robustness and accuracy** with visible and infrared fiducial markers, resulting in publications ([C3], [C2], [W1])."
           - "**(2023-2024)** Led the design and development of takeoff and landing navigation using multi-scale fiducial markers for urban air mobility (Supernal, LLC)."
           - "**(2020-2022)** Designed, developed, and validated extrinsic calibration algorithms for multiple inertial sensors, eliminating the need for aiding sensors or prescribed trajectories. **Matched or surpassed the baseline** in error, success rate, and runtime ([J1]), with **two orders of magnitude faster** calibration using informative measurement selection ([C4])."
@@ -84,9 +85,9 @@ cv:
         highlights:
           - Designed and developed robot localization algorithm from 2D LiDAR data with reflective markers as landmarks.
     publications:
-      - "**[J3]** **Jongwon Lee**, Timothy Bretl. [``GSFeatLoc: Visual Localization Using Feature Correspondence on 3D Gaussian Splatting''](https://arxiv.org/abs/2504.20379). *IEEE Robotics and Automation Letters* (RA-L), 2025. (Under Review)"
+      - "**[J3]** **Jongwon Lee**, Timothy Bretl. [``GSFeatLoc: Visual Localization Using Feature Correspondence on 3D Gaussian Splatting''](https://arxiv.org/abs/2504.20379). (In Preparation)"
       - "**[W2]** Su Yeon Choi, **Jongwon Lee**, Timothy Bretl. ``Design and Detection of an Infrared Fiducial Marker''. ICRA Workshop on Thermal Infrared in Robotics, 2025."
-      - "**[J2]** David Hanley, **Jongwon Lee**, Su Yeon Choi, Timothy Bretl. ``The MagPIE2 Dataset: Magnetic Field-Based Mapping, Localization, and SLAM''. *IEEE Transactions on Instrumentation and Measurement*, 2025. (Submitted)" 
+      - "**[J2]** David Hanley, **Jongwon Lee**, Su Yeon Choi, Timothy Bretl. ``The MagPIE2 Dataset: Magnetic Field-Based Mapping, Localization, and SLAM''. *IEEE Transactions on Instrumentation and Measurement*, 2025. (Under Review)" 
       - "**[C4]** **Jongwon Lee**, David Hanley, Timothy Bretl. [``Efficient Extrinsic Self-Calibration of Multiple IMUs Using Measurement Subset Selection''](https://ieeexplore.ieee.org/abstract/document/10802604/). *IEEE/RSJ International Conference on Intelligent Robots and Systems* (IROS), 2024."
       - "**[C3]** **Jongwon Lee**, Su Yeon Choi, Timothy Bretl. [``The Use of Multi-Scale Fiducial Markers to Aid Rotorcraft Navigation''](https://arc.aiaa.org/doi/abs/10.2514/6.2024-0338). *AIAA SciTech Forum*, 2024."
       - "**[C2]**  Su Yeon Choi, **Jongwon Lee**, Timothy Bretl. [``The Impact of Adverse Environmental Conditions on Fiducial Marker Detection from Rotorcraft''](https://arc.aiaa.org/doi/abs/10.2514/6.2024-0339). *AIAA SciTech Forum*, 2024."
