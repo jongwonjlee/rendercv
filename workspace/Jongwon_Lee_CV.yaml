@@ -24,7 +24,7 @@ cv:
         date: 'Aug 2020 - Dec 2025 (Expected)'
         highlights:
           # - "GPA: 3.97/4.0"
-          - "Dissertation: ``Robust and Reliable Sensor Fusion and Localization for Autonomous Robotic Systems''"
+          - "Dissertation: ``State Estimation for Autonomous Mobile Systems: Multi-IMU Self-Calibration and Localization using 3D Gaussian Splatting Maps''"
           - "Advisor: Dr. Timothy W. Bretl"
       - institution: Korea Advanced Institute of Science and Technology (KAIST)
         area: Mechanical Engineering
