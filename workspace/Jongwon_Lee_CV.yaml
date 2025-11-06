@@ -13,15 +13,15 @@ cv:
       username: jongwonjlee
   sections:
     interests:
-      - "**State Estimation**: Navigation, Mapping, Sensor Fusion, Calibration"
-      - "**Robot Perception & AI**: Computer Vision, Spatial AI"
+      - "**Core Expertise**: Navigation, Mapping, Sensor Fusion, Calibration"
+      - "**Broader Interests**: Robotics, Computer Vision, Physical AI"
     education:
       - institution: University of Illinois Urbana-Champaign (UIUC)
         area: Aerospace Engineering
         degree: Ph.D.
         start_date: 2020-08
         end_date: 2025-08 
-        date: 'Aug 2020 - Dec 2025 (Expected)'
+        date: 'Aug 2020 - Dec 2025'
         highlights:
           # - "GPA: 3.97/4.0"
           - "Dissertation: ``State Estimation for Autonomous Mobile Systems: Multi-IMU Self-Calibration and Localization using 3D Gaussian Splatting Maps''"
@@ -41,8 +41,8 @@ cv:
         start_date: 2020-08
         end_date: present
         highlights:
-          - "**(2025-)** Designing, developing, and validating a method for localizing infrared aerial images on pre-computed 3D Gaussian splatting generated from RGB aerial images."
-          - "**(2025-)** Designed, developed, and validated a method for localizing images on pre-computed 3D Gaussian splatting, achieving a speedup from **over 10s** to **about 0.1s** per image using feature correspondence ([J3])."
+          - "**(2025)** Designing, developing, and validating a method for localizing infrared aerial images on pre-computed 3D Gaussian splatting generated from RGB aerial images."
+          - "**(2025)** Designed, developed, and validated a method for localizing images on pre-computed 3D Gaussian splatting, achieving a speedup from **over 10s** to **about 0.1s** per image using feature correspondence ([J3])."
           - "**(2023-2024)** Designed, developed, and validated visual-inertial SLAM for flying vehicle takeoff and landing, **improving robustness and accuracy** with visible and infrared fiducial markers, resulting in publications ([C3], [C2], [W1])."
           - "**(2023-2024)** Led the design and development of takeoff and landing navigation using multi-scale fiducial markers for urban air mobility (Supernal, LLC)."
           - "**(2020-2022)** Designed, developed, and validated extrinsic calibration algorithms for multiple inertial sensors, eliminating the need for aiding sensors or prescribed trajectories. **Matched or surpassed the baseline** in error, success rate, and runtime ([J1]), with **two orders of magnitude faster** calibration using informative measurement selection ([C4])."
